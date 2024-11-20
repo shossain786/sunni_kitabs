@@ -7,6 +7,7 @@ class BookWebViewScreen extends StatefulWidget {
   const BookWebViewScreen(String link, {super.key, required this.bookUrl});
 
   @override
+  // ignore: library_private_types_in_public_api
   _BookWebViewScreenState createState() => _BookWebViewScreenState();
 }
 
